@@ -6,7 +6,7 @@ export class BigNat {
     public d: Array<number>;
     private size: number;
  
-    // 与えられた数字文字列、BigNatとして格納する
+    // 与えられた数字文字列を、BigNatとして格納する
     constructor (n_s: string) {
         if( !n_s ) { n_s = "0"; }
         
